@@ -1,0 +1,7 @@
+sentencepiece
+transformers
+datasets
+pandas
+numpy
+tqdm
+streamlit-audio-recorder

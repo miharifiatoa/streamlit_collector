@@ -1,0 +1,722 @@
+2025-04-10 11:14:54,327 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 11:15:03,198 - ERROR - Erreur dans train_mt5_model: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-04-10 11:22:29,464 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 11:22:35,651 - INFO - Entraînement terminé avec succès!
+2025-04-10 11:38:36,755 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 11:38:44,906 - ERROR - Erreur dans train_mt5_model: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-04-10 11:53:58,870 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 16:11:15,327 - ERROR - Erreur dans train_mt5_model: [enforce fail at inline_container.cc:626] . unexpected pos 580473024 vs 580472916
+2025-04-10 16:12:44,829 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 16:12:51,728 - ERROR - Erreur dans train_mt5_model: [Errno 2] No such file or directory: 'models/mt5_antandroy/checkpoint-600/trainer_state.json'
+2025-04-10 16:32:52,263 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 16:32:59,946 - INFO - Aucun checkpoint valide trouvé, démarrage d'un nouvel entraînement
+2025-04-10 21:20:31,804 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-10 21:20:34,424 - INFO - Aucun checkpoint valide trouvé, démarrage d'un nouvel entraînement
+2025-04-11 10:37:25,804 - INFO - Évaluation du modèle final...
+2025-04-11 10:37:25,812 - ERROR - Erreur dans validate: string indices must be integers, not 'str'
+2025-04-11 10:37:25,812 - ERROR - Erreur dans train_mt5_model: string indices must be integers, not 'str'
+2025-04-11 10:56:36,108 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-11 10:56:46,610 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-1790
+2025-04-11 10:57:00,285 - INFO - Évaluation du modèle final...
+2025-04-11 10:57:00,291 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 10:57:00,291 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 10:57:00,292 - ERROR - Erreur dans validate: list index out of range
+2025-04-11 10:57:00,292 - ERROR - Erreur dans train_mt5_model: list index out of range
+2025-04-11 10:59:02,060 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-11 10:59:09,180 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-1790
+2025-04-11 10:59:20,576 - INFO - Évaluation du modèle final...
+2025-04-11 10:59:20,578 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 10:59:20,578 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 10:59:20,578 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-11 10:59:20,579 - INFO - Entraînement terminé avec succès!
+2025-04-11 16:59:50,232 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-04-11 16:59:52,786 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-1790
+2025-04-11 22:17:21,707 - WARNING - Using the latest cached version of the module from /home/miharifiatoa/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--sacrebleu/28676bf65b4f88b276df566e48e603732d0b4afd237603ebdf92acaacf5be99b (last modified on Fri Apr 11 10:37:22 2025) since it couldn't be found locally at evaluate-metric--sacrebleu, or remotely on the Hugging Face Hub.
+2025-04-11 22:17:23,274 - WARNING - Using the latest cached version of the module from /home/miharifiatoa/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Apr 11 10:37:25 2025) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+2025-04-11 22:17:23,470 - INFO - Évaluation du modèle final...
+2025-04-11 22:17:23,473 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 22:17:23,473 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-11 22:17:23,473 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-11 22:17:23,473 - INFO - Entraînement terminé avec succès!
+2025-04-13 07:02:14,156 - ERROR - Erreur dans train_mt5_model: Fichier d'entraînement introuvable: data/processed/dataset.jsonl
+2025-04-13 07:02:53,675 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-13 07:03:45,040 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-3200
+2025-04-13 07:04:38,997 - WARNING - Using the latest cached version of the module from /home/miharifiatoa/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--sacrebleu/28676bf65b4f88b276df566e48e603732d0b4afd237603ebdf92acaacf5be99b (last modified on Fri Apr 11 10:37:22 2025) since it couldn't be found locally at evaluate-metric--sacrebleu, or remotely on the Hugging Face Hub.
+2025-04-13 07:05:25,862 - WARNING - Using the latest cached version of the module from /home/miharifiatoa/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Apr 11 10:37:25 2025) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+2025-04-13 07:05:26,175 - INFO - Évaluation du modèle final...
+2025-04-13 07:05:26,177 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-13 07:05:26,177 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-13 07:05:26,177 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-13 07:05:26,177 - INFO - Entraînement terminé avec succès!
+2025-04-14 09:03:49,411 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 09:03:56,591 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-3200
+2025-04-14 09:04:08,066 - INFO - Évaluation du modèle final...
+2025-04-14 09:04:08,071 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:04:08,071 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:04:08,071 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-14 09:04:08,071 - INFO - Entraînement terminé avec succès!
+2025-04-14 09:09:22,972 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 09:09:30,684 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-3200
+2025-04-14 09:09:40,552 - INFO - Évaluation du modèle final...
+2025-04-14 09:09:40,554 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:09:40,554 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:09:40,554 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-14 09:09:40,555 - INFO - Entraînement terminé avec succès!
+2025-04-14 09:12:27,799 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 09:12:34,694 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-3200
+2025-04-14 09:12:44,561 - INFO - Évaluation du modèle final...
+2025-04-14 09:12:44,563 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:12:44,564 - ERROR - Erreur lors du chargement de l'exemple: Expecting value: line 1 column 1 (char 0)
+2025-04-14 09:12:44,564 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-14 09:12:44,564 - INFO - Entraînement terminé avec succès!
+2025-04-14 09:28:15,837 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 09:28:22,217 - INFO - Reprise de l'entraînement depuis models/mt5_antandroy/checkpoint-3200
+2025-04-14 09:28:34,574 - INFO - Évaluation du modèle final...
+2025-04-14 09:28:34,576 - INFO - Données de validation chargées: 5 exemples
+2025-04-14 09:28:34,576 - INFO - Validation sur 2 exemples
+2025-04-14 09:28:34,577 - WARNING - Exemple 0 n'est pas un dictionnaire: <class 'str'>
+2025-04-14 09:28:34,577 - WARNING - Exemple 1 n'est pas un dictionnaire: <class 'str'>
+2025-04-14 09:28:34,577 - INFO - Validation terminée: 0/2 exemples valides
+2025-04-14 09:28:34,577 - ERROR - Aucun exemple valide n'a été trouvé pour la validation.
+2025-04-14 09:28:34,578 - INFO - Entraînement terminé avec succès!
+2025-04-14 09:36:16,522 - INFO - Configuration du système...
+2025-04-14 09:36:16,523 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-04-14 09:36:16,523 - INFO - Démarrage de l'entraînement...
+2025-04-14 09:36:16,523 - INFO - Utilisation du dispositif: cpu
+2025-04-14 09:36:16,527 - INFO - Graine aléatoire fixée à 42
+2025-04-14 09:36:16,527 - INFO - Vérification des fichiers de données...
+2025-04-14 09:36:16,527 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-04-14 09:36:16,528 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-04-14 09:36:16,528 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 09:36:18,041 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-04-14 09:36:18,041 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-04-14 09:36:21,072 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-04-14 09:36:24,302 - INFO - Modèle chargé avec succès
+2025-04-14 09:36:24,302 - INFO - Prétraitement des données...
+2025-04-14 09:36:26,573 - INFO - Prétraitement terminé
+2025-04-14 09:36:26,574 - ERROR - Erreur dans train_mt5_model: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        group_by_length=True
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-04-14 09:36:26,574 - ERROR - Erreur lors de l'entraînement: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-04-14 09:36:26,576 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 707, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        group_by_length=True
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-04-14 10:08:18,562 - INFO - Configuration du système...
+2025-04-14 10:08:18,563 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-04-14 10:08:18,563 - INFO - Démarrage de l'entraînement...
+2025-04-14 10:08:18,563 - INFO - Utilisation du dispositif: cpu
+2025-04-14 10:08:18,564 - INFO - Graine aléatoire fixée à 42
+2025-04-14 10:08:18,565 - INFO - Vérification des fichiers de données...
+2025-04-14 10:08:18,565 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-04-14 10:08:18,565 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-04-14 10:08:18,565 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 10:08:20,044 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-04-14 10:08:20,044 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-04-14 10:08:23,424 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-04-14 10:08:26,593 - INFO - Modèle chargé avec succès
+2025-04-14 10:08:26,593 - INFO - Prétraitement des données...
+2025-04-14 10:08:26,736 - INFO - Prétraitement terminé
+2025-04-14 10:08:26,737 - ERROR - Erreur dans train_mt5_model: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        group_by_length=True
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-04-14 10:08:26,737 - ERROR - Erreur lors de l'entraînement: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-04-14 10:08:26,738 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 707, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        group_by_length=True
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-04-14 10:09:50,438 - INFO - Configuration du système...
+2025-04-14 10:09:50,438 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-04-14 10:09:50,438 - INFO - Démarrage de l'entraînement...
+2025-04-14 10:09:50,438 - INFO - Utilisation du dispositif: cpu
+2025-04-14 10:09:50,440 - INFO - Graine aléatoire fixée à 42
+2025-04-14 10:09:50,440 - INFO - Vérification des fichiers de données...
+2025-04-14 10:09:50,440 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-04-14 10:09:50,440 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-04-14 10:09:50,440 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 10:09:51,790 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-04-14 10:09:51,790 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-04-14 10:09:54,191 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-04-14 10:09:56,648 - INFO - Modèle chargé avec succès
+2025-04-14 10:09:56,648 - INFO - Prétraitement des données...
+2025-04-14 10:09:56,760 - INFO - Prétraitement terminé
+2025-04-14 10:09:56,762 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-04-14 10:09:56,762 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-04-14 10:09:56,763 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 704, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-04-14 17:22:22,173 - INFO - Configuration du système...
+2025-04-14 17:22:22,180 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-04-14 17:22:22,180 - INFO - Démarrage de l'entraînement...
+2025-04-14 17:22:22,180 - INFO - Utilisation du dispositif: cpu
+2025-04-14 17:22:22,186 - INFO - Graine aléatoire fixée à 42
+2025-04-14 17:22:22,186 - INFO - Vérification des fichiers de données...
+2025-04-14 17:22:22,186 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-04-14 17:22:22,186 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-04-14 17:22:22,186 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 17:22:42,344 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-04-14 17:22:42,345 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-04-14 17:22:48,733 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-04-14 17:23:10,240 - INFO - Modèle chargé avec succès
+2025-04-14 17:23:10,241 - INFO - Prétraitement des données...
+2025-04-14 17:23:10,299 - INFO - Prétraitement terminé
+2025-04-14 17:23:10,300 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-04-14 17:23:10,301 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-04-14 17:23:10,301 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 704, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-04-14 21:09:38,958 - INFO - Configuration du système...
+2025-04-14 21:09:38,959 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-04-14 21:09:38,959 - INFO - Démarrage de l'entraînement...
+2025-04-14 21:09:38,959 - INFO - Utilisation du dispositif: cpu
+2025-04-14 21:09:38,961 - INFO - Graine aléatoire fixée à 42
+2025-04-14 21:09:38,961 - INFO - Vérification des fichiers de données...
+2025-04-14 21:09:38,961 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-04-14 21:09:38,962 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-04-14 21:09:38,962 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-04-14 21:09:40,334 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-04-14 21:09:40,334 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-04-14 21:09:42,867 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-04-14 21:09:55,694 - INFO - Modèle chargé avec succès
+2025-04-14 21:09:55,695 - INFO - Prétraitement des données...
+2025-04-14 21:09:55,778 - INFO - Prétraitement terminé
+2025-04-14 21:09:55,780 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-04-14 21:09:55,780 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-04-14 21:09:55,781 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 704, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-02 18:06:46,295 - INFO - Configuration du système...
+2025-05-02 18:06:46,296 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-02 18:06:46,296 - INFO - Démarrage de l'entraînement...
+2025-05-02 18:06:46,296 - INFO - Utilisation du dispositif: cpu
+2025-05-02 18:06:46,297 - INFO - Graine aléatoire fixée à 42
+2025-05-02 18:06:46,297 - INFO - Vérification des fichiers de données...
+2025-05-02 18:06:46,297 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-05-02 18:06:46,298 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-05-02 18:06:46,298 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-05-02 18:07:06,390 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-05-02 18:07:06,390 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-02 18:07:12,772 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-02 18:07:34,170 - INFO - Modèle chargé avec succès
+2025-05-02 18:07:34,170 - INFO - Prétraitement des données...
+2025-05-02 18:07:34,235 - INFO - Prétraitement terminé
+2025-05-02 18:07:34,236 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-02 18:07:34,236 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-05-02 18:07:34,237 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 704, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-02 18:08:44,262 - INFO - Configuration du système...
+2025-05-02 18:08:44,263 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-02 18:08:44,263 - INFO - Démarrage de l'entraînement...
+2025-05-02 18:08:44,263 - INFO - Utilisation du dispositif: cpu
+2025-05-02 18:08:44,264 - INFO - Graine aléatoire fixée à 42
+2025-05-02 18:08:44,264 - INFO - Vérification des fichiers de données...
+2025-05-02 18:08:44,264 - INFO - Vérification du fichier data/processed/datasets.jsonl: 11 exemples valides
+2025-05-02 18:08:44,264 - INFO - Vérification du fichier data/processed/datasets copy.jsonl: 5 exemples valides
+2025-05-02 18:08:44,264 - INFO - Chargement des données depuis data/processed/datasets.jsonl...
+2025-05-02 18:09:04,311 - INFO - Données chargées: 11 exemples d'entraînement, 5 exemples de validation
+2025-05-02 18:09:04,311 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-02 18:09:10,647 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-02 18:09:31,586 - INFO - Modèle chargé avec succès
+2025-05-02 18:09:31,587 - INFO - Prétraitement des données...
+2025-05-02 18:09:31,708 - INFO - Prétraitement terminé
+2025-05-02 18:09:31,712 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-02 18:09:31,712 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-05-02 18:09:31,715 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 704, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 523, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<23 lines>...
+        group_by_length=True
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-09 17:20:39,046 - INFO - Configuration du système...
+2025-05-09 17:20:39,047 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-09 17:20:39,047 - INFO - Démarrage de l'entraînement...
+2025-05-09 17:20:39,047 - INFO - Utilisation du dispositif: cpu
+2025-05-09 17:20:39,049 - INFO - Graine aléatoire fixée à 42
+2025-05-09 17:20:39,049 - INFO - Vérification des fichiers de données...
+2025-05-09 17:20:39,054 - INFO - Vérification du fichier data/processed/antandroy_dataset_train.jsonl: 2866 exemples valides
+2025-05-09 17:20:39,054 - INFO - Vérification du fichier data/processed/antandroy_dataset_test.jsonl: 319 exemples valides
+2025-05-09 17:20:39,054 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-05-09 17:20:40,845 - INFO - Données chargées: 2866 exemples d'entraînement, 319 exemples de validation
+2025-05-09 17:20:40,845 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-09 17:20:43,201 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-09 17:20:46,268 - INFO - Modèle chargé avec succès
+2025-05-09 17:20:46,268 - INFO - Prétraitement des données...
+2025-05-09 17:20:48,817 - INFO - Prétraitement terminé
+2025-05-09 17:20:48,818 - ERROR - Erreur dans train_mt5_model: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<26 lines>...
+        label_smoothing_factor=0.1    # Ajouté
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-05-09 17:20:48,818 - ERROR - Erreur lors de l'entraînement: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-05-09 17:20:48,819 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 714, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<26 lines>...
+        label_smoothing_factor=0.1    # Ajouté
+    )
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+
+2025-05-09 17:32:10,224 - INFO - Configuration du système...
+2025-05-09 17:32:10,224 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-09 17:32:10,224 - INFO - Démarrage de l'entraînement...
+2025-05-09 17:32:10,224 - INFO - Utilisation du dispositif: cpu
+2025-05-09 17:32:10,225 - INFO - Graine aléatoire fixée à 42
+2025-05-09 17:32:10,225 - INFO - Vérification des fichiers de données...
+2025-05-09 17:32:10,230 - INFO - Vérification du fichier data/processed/antandroy_dataset_train.jsonl: 2866 exemples valides
+2025-05-09 17:32:10,231 - INFO - Vérification du fichier data/processed/antandroy_dataset_test.jsonl: 319 exemples valides
+2025-05-09 17:32:10,231 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-05-09 17:32:11,843 - INFO - Données chargées: 2866 exemples d'entraînement, 319 exemples de validation
+2025-05-09 17:32:11,843 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-09 17:32:14,424 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-09 17:32:17,312 - INFO - Modèle chargé avec succès
+2025-05-09 17:32:17,312 - INFO - Prétraitement des données...
+2025-05-09 17:32:17,381 - INFO - Prétraitement terminé
+2025-05-09 17:32:17,382 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-09 17:32:17,382 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-05-09 17:32:17,383 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 713, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-09 17:32:49,110 - WARNING - Error while downloading from https://cdn-lfs.hf.co/google/mt5-small/221c1cf081d4b8d4da8c9e6b8070c6b2f4d601213e64f90723155ec923d8124d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1746804745&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjgwNDc0NX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9nb29nbGUvbXQ1LXNtYWxsLzIyMWMxY2YwODFkNGI4ZDRkYThjOWU2YjgwNzBjNmIyZjRkNjAxMjEzZTY0ZjkwNzIzMTU1ZWM5MjNkODEyNGQ%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=CjboFvDSMQbccQWIV6riu4zM2g7Osft4rvUmFMnaCL93MszTWnQ0ulCp7D-N8J--G9%7Etu7em-zcrD2FQsWEGeZ4JMtuwB-bHK5Buu7IiQQwNSL%7Ej-I6vXkri6%7EOs6%7E7zqXxqYYpWMS1Hr48twJ%7Ev4FrHx8rP7QFSFaQ-BwqzURM9ar0wIEEzsVGEB7B%7EsszDqO35o81GXu5NmCAas6HTBzZKxl4SGS78vMbCewP%7E-Xl7Bt87IuMGGnHWQbzETuZjLr5r24cTUt39Z6kutIvZ3Qrws5yX3JoYXQCF2GKWAlIjCgDlZWxnKo%7EBCFv6BEdwzUEe1-hhIUuennVpwSLErA__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-05-10 17:39:03,932 - INFO - Configuration du système...
+2025-05-10 17:39:03,933 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-10 17:39:03,933 - INFO - Démarrage de l'entraînement...
+2025-05-10 17:39:03,933 - INFO - Utilisation du dispositif: cpu
+2025-05-10 17:39:03,935 - INFO - Graine aléatoire fixée à 42
+2025-05-10 17:39:03,935 - INFO - Vérification des fichiers de données...
+2025-05-10 17:39:03,941 - INFO - Vérification du fichier data/processed/antandroy_dataset_train.jsonl: 2866 exemples valides
+2025-05-10 17:39:03,941 - INFO - Vérification du fichier data/processed/antandroy_dataset_test.jsonl: 319 exemples valides
+2025-05-10 17:39:03,941 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-05-10 17:39:03,976 - INFO - Données chargées: 2866 exemples d'entraînement, 319 exemples de validation
+2025-05-10 17:39:03,976 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-10 17:39:05,843 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-10 17:39:07,452 - INFO - Modèle chargé avec succès
+2025-05-10 17:39:07,452 - INFO - Prétraitement des données...
+2025-05-10 17:39:07,541 - INFO - Prétraitement terminé
+2025-05-10 17:39:07,542 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-10 17:39:07,542 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-05-10 17:39:07,544 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 713, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-19 11:43:05,099 - INFO - Configuration du système...
+2025-05-19 11:43:05,101 - WARNING - CUDA non disponible, l'entraînement sera effectué sur CPU (beaucoup plus lent)
+2025-05-19 11:43:05,101 - INFO - Démarrage de l'entraînement...
+2025-05-19 11:43:05,101 - INFO - Utilisation du dispositif: cpu
+2025-05-19 11:43:05,103 - INFO - Graine aléatoire fixée à 42
+2025-05-19 11:43:05,103 - INFO - Vérification des fichiers de données...
+2025-05-19 11:43:05,111 - INFO - Vérification du fichier data/processed/antandroy_dataset_train.jsonl: 2866 exemples valides
+2025-05-19 11:43:05,113 - INFO - Vérification du fichier data/processed/antandroy_dataset_test.jsonl: 319 exemples valides
+2025-05-19 11:43:05,113 - INFO - Chargement des données depuis data/processed/antandroy_dataset_train.jsonl...
+2025-05-19 11:43:06,695 - INFO - Données chargées: 2866 exemples d'entraînement, 319 exemples de validation
+2025-05-19 11:43:06,696 - INFO - Chargement du tokenizer et du modèle google/mt5-small...
+2025-05-19 11:43:09,205 - INFO - Tokenizer chargé avec succès: google/mt5-small
+2025-05-19 11:43:12,771 - INFO - Modèle chargé avec succès
+2025-05-19 11:43:12,771 - INFO - Prétraitement des données...
+2025-05-19 11:43:12,898 - INFO - Prétraitement terminé
+2025-05-19 11:43:12,899 - ERROR - Erreur dans train_mt5_model: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+
+2025-05-19 11:43:12,899 - ERROR - Erreur lors de l'entraînement: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+2025-05-19 11:43:12,901 - ERROR - Traceback (most recent call last):
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 713, in <module>
+    results = train_mt5_model(
+        train_path=args.train,
+    ...<12 lines>...
+        resume_from_checkpoint=not args.no_resume
+    )
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/scripts/4_finetune_mt5.py", line 528, in train_mt5_model
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+    ...<25 lines>...
+        label_smoothing_factor=0.1
+    )
+  File "<string>", line 132, in __init__
+  File "/home/miharifiatoa/code_source/Projet M2 GID 2024-2024 /ML-DL/.env/lib/python3.13/site-packages/transformers/training_args.py", line 1648, in __post_init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
+- Evaluation strategy: IntervalStrategy.NO
+- Save strategy: SaveStrategy.STEPS
+

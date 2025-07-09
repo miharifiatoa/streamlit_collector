@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+audio-recorder-streamlit
+nest_asyncio
+sentencepiece
+datasets
+pandas
+numpy
+tqdm
