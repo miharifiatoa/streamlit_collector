@@ -1,7 +1,38 @@
-sentencepiece
-transformers
-datasets
-pandas
-numpy
-tqdm
-streamlit-audio-recorder
+# Core ML libraries
+transformers>=4.30.0
+datasets>=2.10.0
+tokenizers>=0.13.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Streamlit and audio
+streamlit>=1.20.0
+streamlit-audio-recorder>=0.0.8
+
+# Alternative tokenization (replaces sentencepiece)
+# Choose one of these options:
+
+# Option 1: Use Hugging Face tokenizers (recommended)
+# tokenizers>=0.13.0  # Already included above
+
+# Option 2: Use spaCy for tokenization
+# spacy>=3.5.0
+
+# Option 3: Use tiktoken (OpenAI's tokenizer)
+# tiktoken>=0.4.0
+
+# Additional dependencies that might be needed
+torch>=2.0.0
+# or for CPU-only: torch>=2.0.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+# Audio processing (if needed for your project)
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Optional: for better performance
+accelerate>=0.20.0
