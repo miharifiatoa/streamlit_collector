@@ -1,7 +1,34 @@
-sentencepiece
-transformers
-datasets
-pandas
-numpy
-tqdm
-streamlit-audio-recorder
+# Streamlit Cloud Compatible Requirements
+# NO sentencepiece - causes compilation errors on Streamlit Cloud
+
+# Core ML libraries
+transformers>=4.30.0,<5.0.0
+tokenizers>=0.13.0,<1.0.0
+datasets>=2.10.0,<3.0.0
+
+# Data processing
+pandas>=1.5.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Streamlit and audio
+streamlit>=1.20.0
+streamlit-audio-recorder>=0.0.8
+
+# PyTorch CPU version (lighter for Streamlit Cloud)
+torch>=2.0.0,<3.0.0
+torchvision>=0.15.0,<1.0.0
+torchaudio>=2.0.0,<3.0.0
+
+# Audio processing (essential for your app)
+librosa>=0.10.0,<1.0.0
+soundfile>=0.12.0,<1.0.0
+
+# Performance optimization
+accelerate>=0.20.0,<1.0.0
+
+# Optional: Alternative tokenizers if needed
+# tiktoken>=0.4.0  # OpenAI tokenizer (lightweight)
+# spacy>=3.5.0     # Only if absolutely necessary
