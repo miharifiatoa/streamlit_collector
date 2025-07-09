@@ -1,5 +1,5 @@
 # Streamlit Cloud Compatible Requirements
-# NO sentencepiece - causes compilation errors on Streamlit Cloud
+# sentencepiece exclu – provoque des erreurs de compilation
 
 # Core ML libraries
 transformers>=4.30.0,<5.0.0
@@ -15,20 +15,21 @@ tqdm>=4.65.0
 
 # Streamlit and audio
 streamlit>=1.20.0
-streamlit-audio-recorder>=0.0.8
+streamlit-audio-recorder==0.0.8  # version exacte recommandée
 
-# PyTorch CPU version (lighter for Streamlit Cloud)
-torch>=2.0.0,<3.0.0
-torchvision>=0.15.0,<1.0.0
-torchaudio>=2.0.0,<3.0.0
+# PyTorch CPU version (compatible avec Streamlit Cloud)
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.0.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 
-# Audio processing (essential for your app)
+# Audio processing
 librosa>=0.10.0,<1.0.0
 soundfile>=0.12.0,<1.0.0
 
 # Performance optimization
 accelerate>=0.20.0,<1.0.0
 
-# Optional: Alternative tokenizers if needed
+# Optional: Alternative tokenizers
 # tiktoken>=0.4.0  # OpenAI tokenizer (lightweight)
-# spacy>=3.5.0     # Only if absolutely necessary
+# spacy>=3.5.0     # À éviter si non indispensable (gros package)
