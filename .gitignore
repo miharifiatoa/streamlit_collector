@@ -1,4 +1,35 @@
+# Modèles et données
 models/
-.env/
+data/
+*.pkl
+*.h5
+*.pt
+*.pth
+*.model
+*.weights
+
+# Données
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Logs et cache
+*.log
+__pycache__/
+*.pyc
+*.pyo
 .pytest_cache/
-.vscode/
+
+# Environnement
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Système
+.DS_Store
+Thumbs.db
