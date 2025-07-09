@@ -1,11 +1,14 @@
+# Streamlit Cloud Compatible Requirements
+# NO sentencepiece - causes compilation errors on Streamlit Cloud
+
 # Core ML libraries
-transformers>=4.30.0
-datasets>=2.10.0
-tokenizers>=0.13.0
+transformers>=4.30.0,<5.0.0
+tokenizers>=0.13.0,<1.0.0
+datasets>=2.10.0,<3.0.0
 
 # Data processing
-pandas>=1.5.0
-numpy>=1.24.0
+pandas>=1.5.0,<3.0.0
+numpy>=1.24.0,<2.0.0
 
 # Utilities
 tqdm>=4.65.0
@@ -14,25 +17,18 @@ tqdm>=4.65.0
 streamlit>=1.20.0
 streamlit-audio-recorder>=0.0.8
 
-# Alternative tokenization (replaces sentencepiece)
-# Choose one of these options:
+# PyTorch CPU version (lighter for Streamlit Cloud)
+torch>=2.0.0,<3.0.0
+torchvision>=0.15.0,<1.0.0
+torchaudio>=2.0.0,<3.0.0
 
-# Option 1: Use Hugging Face tokenizers (recommended)
-# tokenizers>=0.13.0  # Already included above
+# Audio processing (essential for your app)
+librosa>=0.10.0,<1.0.0
+soundfile>=0.12.0,<1.0.0
 
-# Option 2: Use spaCy for tokenization
-# spacy>=3.5.0
+# Performance optimization
+accelerate>=0.20.0,<1.0.0
 
-# Option 3: Use tiktoken (OpenAI's tokenizer)
-# tiktoken>=0.4.0
-
-# Additional dependencies that might be needed
-torch>=2.0.0
-# or for CPU-only: torch>=2.0.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-
-# Audio processing (if needed for your project)
-librosa>=0.10.0
-soundfile>=0.12.0
-
-# Optional: for better performance
-accelerate>=0.20.0
+# Optional: Alternative tokenizers if needed
+# tiktoken>=0.4.0  # OpenAI tokenizer (lightweight)
+# spacy>=3.5.0     # Only if absolutely necessary
